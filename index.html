@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee House | Aesthetic Brews</title>
+    <link rel="stylesheet" href="project.css">
+
+</head>
+<body>
+
+    <nav>
+    <div class="logo-container">
+        <img src="images/logo.png" 
+             alt="Logo" 
+             class="logo-navbar">
+    </div>
+    <ul>
+       <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#gallery">About us</a></li>
+           <li><a href="#contact"> contact</a></li>
+    </ul>
+</nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Roasted to Perfection</h1>
+            <h2>"More espresso, less depresso"</h2>
+            <p><b><i>Experience the art of the perfect pour.</i></b></p>
+            <a href="menu.html" class="btn">View Our Menu</a>
+        </div>
+    </header>
+
+    <section class="gallery" id="gallery">
+        <h2>Our Aesthetic Spaces</h2>
+        <div class="grid">
+            <div class="img-card"><img src="https://i.pinimg.com/736x/54/24/3d/54243ddc49fe72eff993818a97fa000f.jpg"></div>
+            <div class="img-card"><img src="https://images.splitshire.com/full/A-Blurry-Cafe-Background-with-Focused-Coffee-Cup_hRI8L.png"></div>
+            <div class="img-card"><img src="https://i.pinimg.com/736x/17/79/46/177946feb801a5c4c1d03cd264a332c4.jpg"></div>
+            <div class="img-card"><img src="https://i.pinimg.com/1200x/5a/88/0d/5a880de5286b5ca67434e2e57fc26203.jpg"></div>
+            <div class="img-card"><img src="https://i.pinimg.com/736x/df/c5/de/dfc5dec091425ba382f9e51800e1714a.jpg"></div>
+            <div class="img-card"><img src="https://i.pinimg.com/1200x/13/36/26/1336268d395b703ed5fe73dac29be877.jpg"></div>
+            
+        </div>
+    </section>
+
+    <section class="mood-finder" id="moodBox">
+        
+        <div class="form-container">
+            <h2>Find Your Menu Match</h2>
+            <p>We'll suggest a real combo from our menu!</p>
+            
+            <div class="form-group">
+                <label>How are you feeling?</label>
+                <select id="moodSelect">
+                    <option value="productive">Productive & Focused</option>
+                    <option value="relaxed">Cozy & Relaxed</option>
+                    <option value="adventurous">Adventurous</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Preference:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="taste" value="sweet" checked> Sweet</label>
+                    <label><input type="radio" name="taste" value="bold"> Bold</label>
+                </div>
+            </div>
+
+            <button type="button" id="suggestBtn" class="btn">Get Menu Suggestion</button>
+            <div id="resultArea" class="result-box"></div>
+        </div>
+    </section>
+    <script src="project.js"></script>
+
+     <footer class="main-footer" id="contact">
+    <div class="footer-top">
+        <div class="footer-col">
+    <nav>
+        <div class="logo-container">
+            <img src="images/logo.png" 
+                 alt="Logo" 
+                 class="logo-footer">
+        </div>
+    </nav>
+</div>
+<div class="footer-col">
+    <h3>Contact</h3>
+    <p><strong>Phone:</strong> +92 300 1234567</p>
+    <p><strong>Email:</strong> thecoffeehouse@gmail.com</p>
+</div>
+
+<div class="footer-col">
+    <h3>Location</h3>
+    <p>
+        F42 E St,<br>
+        Block 4 Clifton,<br>
+        Karachi, Pakistan
+    </p>
+    <a href="https://maps.app.goo.gl/xf6eAM5t9wpFGjNHA?g_st=aw"
+       target="_blank"
+       class="map-link">
+        View on Google Maps
+    </a>
+</div>
+        <div class="footer-col">
+            <div class="footer-hours">
+                <h3> Cafe Timings </h3>
+                <p><strong><u>Monday - Friday</u></strong></p>
+                <p><i>8:00 AM - 2:00 PM</i></p>
+                <p><strong><u>Saturday - Sunday </u></strong></p>
+                <p><i>5:00 PM - 11:00 PM</i></p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+    <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/bean_border-1.png" 
+         alt="Bean Divider" 
+         class="footer-divider">
+</div>
+</body>
+</html>
